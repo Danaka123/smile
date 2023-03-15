@@ -1,0 +1,15 @@
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  display: block;
+  animation: spin 1s linear 0s infinite;
+}
